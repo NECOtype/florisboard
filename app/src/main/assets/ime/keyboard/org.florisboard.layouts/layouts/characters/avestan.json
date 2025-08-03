@@ -6,7 +6,7 @@
     { "$": "case_selector", "lower": { "code":  68399, "label": "𐬯" }, "upper": { "code":  68386, "label": "𐬢" }},
     { "code":  68368, "label": "𐬐" },
     { "$": "case_selector", "lower": { "code":  68369, "label": "𐬑" }, "upper": { "code":  68371, "label": "𐬓" }},
-    { "$": "case_selector", "lower": { "code":  68402, "label": "𐬲" }, "upper": { "code":  68370, "label": "𐬒" }},
+    { "$": "case_selector", "lower": { "code":  68405, "label": "𐬵" }, "upper": { "code":  68370, "label": "𐬒" }},
     { "code":  68395, "label": "𐬫" },
     { "$": "case_selector", "lower": { "code":  68366, "label": "𐬎" }, "upper": { "code":  68367, "label": "𐬏" }},
     { "code":  68375, "label": "𐬗" },
