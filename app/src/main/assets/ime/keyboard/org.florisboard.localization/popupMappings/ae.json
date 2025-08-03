@@ -1,49 +1,5 @@
 {
   "all": {
-    "ی": {
-      "relevant": [
-        { "code": 1574, "label": "ئ" },
-        { "code": 1610, "label": "ي" },
-        { "code": 1746, "label": "ے" }
-      ]
-    },
-    "ا": {
-      "main": { "code": 1570, "label": "آ"},
-      "relevant": [
-        { "code": 1649, "label": "ٱ" },
-        { "code": 1569, "label": "ء" },
-        { "code": 1571, "label": "أ" },
-        { "code": 1573, "label": "إ" }
-      ]
-    },
-    "ه": {
-      "relevant": [
-        { "code": 1729, "label": "ہ" },
-        { "code": 1728, "label": "ۀ" },
-        { "code": 1726, "label": "ھ" }
-      ]
-    },
-    "ت": {
-      "relevant": [
-        { "code": 1577, "label": "ة" }
-      ]
-    },
-    "ک": {
-      "relevant": [
-        { "code": 1603, "label": "ك" },
-        { "code": 1706, "label": "ڪ"}
-      ]
-    },
-    "ز": {
-      "relevant": [
-        { "code": 1688, "label": "ژ" }
-      ]
-    },
-    "و": {
-      "relevant": [
-        { "code": 1572, "label": "ؤ" }
-      ]
-    },
     "~right": {
       "main": { "code": 68412, "label": "𐬼" },
       "relevant": [

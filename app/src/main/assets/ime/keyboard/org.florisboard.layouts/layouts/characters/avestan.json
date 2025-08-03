@@ -10,7 +10,7 @@
     { "code":  68395, "label": "𐬫" },
     { "$": "case_selector", "lower": { "code":  68366, "label": "𐬎" }, "upper": { "code":  68367, "label": "𐬏" }},
     { "code":  68375, "label": "𐬗" },
-    { "code":  68376, "label": "𐬘" },
+    { "code":  68376, "label": "𐬘" }
   ],
   [
     { "$": "case_selector", "lower": { "code":  68377, "label": "𐬙" }, "upper": { "code":  68381, "label": "𐬝" }},
@@ -23,7 +23,7 @@
     { "$": "case", "lower": { "code":  68352, "label": "𐬀" }, "upper": { "code":  68354, "label": "𐬂" }},
     { "$": "case", "lower": { "code":  68353, "label": "𐬁" }, "upper": { "code":  68355, "label": "𐬃" }},
     { "$": "case", "lower": { "code":  68364, "label": "𐬌" }, "upper": { "code":  68365, "label": "𐬍" }},
-    { "$": "case", "lower": { "code":  68358, "label": "𐬆" }, "upper": { "code":  68359, "label": "𐬇" }},
+    { "$": "case", "lower": { "code":  68358, "label": "𐬆" }, "upper": { "code":  68359, "label": "𐬇" }}
   ],
   [
     { "code":  68374, "label": "𐬖" },
@@ -33,6 +33,6 @@
     { "code":  68382, "label": "𐬞" },
     { "$": "case", "lower": { "code":  68396, "label": "𐬬" }, "upper": { "code":  68385, "label": "𐬡" }},
     { "code":  68400, "label": "𐬰" },
-    { "code":  68402, "label": "𐬲" },
+    { "code":  68402, "label": "𐬲" }
   ]
 ]

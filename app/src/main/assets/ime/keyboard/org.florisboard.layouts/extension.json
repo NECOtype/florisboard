@@ -42,7 +42,8 @@
         "id": "avestan",
         "label": "Avestan",
         "authors": [ "NECOdes" ],
-        "direction": "rtl"
+        "direction": "rtl",
+        "modifier": "org.florisboard.layouts:avestan"
       },
       {
         "id": "azerbaijani",
@@ -539,6 +540,12 @@
         "label": "Neo2",
         "authors": [ "ostrya" ],
         "direction": "ltr"
+      },
+      {
+        "id": "avestan",
+        "label": "Avestan",
+        "authors": [ "NECOdes" ],
+        "direction": "rtl"
       },
       {
         "id": "persian",
