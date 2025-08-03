@@ -1,6 +1,6 @@
 [
   [
-    { "$": "case_selector", "lower": { "code": 68378, "label": "𐬚" }, "upper": { "code": 8888, "label": "" }},
+    { "$": "case_selector", "lower": { "code": 68378, "label": "𐬚" }, "upper": { "code": 68380 , "label": "𐬜" }},
     { "code":  68384, "label": "𐬠" },
     { "code":  68398, "label": "𐬮" },
     { "$": "case_selector", "lower": { "code":  68399, "label": "𐬯" }, "upper": { "code":  68386, "label": "𐬢" }},
@@ -16,22 +16,22 @@
     { "$": "case_selector", "lower": { "code":  68377, "label": "𐬙" }, "upper": { "code":  68381, "label": "𐬝" }},
     { "code":  68379, "label": "𐬛" },
     { "code":  68397, "label": "𐬭" },
-    { "$": "case", "lower": { "code":  68389, "label": "𐬥" }, "upper": { "code":  68391, "label": "𐬧" }},
+    { "$": "case_selector", "lower": { "code":  68389, "label": "𐬥" }, "upper": { "code":  68391, "label": "𐬧" }},
     { "code":  68392, "label": "𐬨" },
-    { "$": "case", "lower": { "code":  68362, "label": "𐬊" }, "upper": { "code":  68363, "label": "𐬋" }},
-    { "$": "case", "lower": { "code":  68360, "label": "𐬈" }, "upper": { "code":  68361, "label": "𐬉" }},
-    { "$": "case", "lower": { "code":  68352, "label": "𐬀" }, "upper": { "code":  68354, "label": "𐬂" }},
-    { "$": "case", "lower": { "code":  68353, "label": "𐬁" }, "upper": { "code":  68355, "label": "𐬃" }},
-    { "$": "case", "lower": { "code":  68364, "label": "𐬌" }, "upper": { "code":  68365, "label": "𐬍" }},
-    { "$": "case", "lower": { "code":  68358, "label": "𐬆" }, "upper": { "code":  68359, "label": "𐬇" }}
+    { "$": "case_selector", "lower": { "code":  68362, "label": "𐬊" }, "upper": { "code":  68363, "label": "𐬋" }},
+    { "$": "case_selector", "lower": { "code":  68360, "label": "𐬈" }, "upper": { "code":  68361, "label": "𐬉" }},
+    { "$": "case_selector", "lower": { "code":  68352, "label": "𐬀" }, "upper": { "code":  68354, "label": "𐬂" }},
+    { "$": "case_selector", "lower": { "code":  68353, "label": "𐬁" }, "upper": { "code":  68355, "label": "𐬃" }},
+    { "$": "case_selector", "lower": { "code":  68364, "label": "𐬌" }, "upper": { "code":  68365, "label": "𐬍" }},
+    { "$": "case_selector", "lower": { "code":  68358, "label": "𐬆" }, "upper": { "code":  68359, "label": "𐬇" }}
   ],
   [
     { "code":  68374, "label": "𐬖" },
     { "code":  68372, "label": "𐬔" },
-    { "$": "case", "lower": { "code":  68401, "label": "𐬱" }, "upper": { "code":  68404, "label": "𐬴" }},
-    { "$": "case", "lower": { "code":  68383, "label": "𐬟" }, "upper": { "code":  68387, "label": "𐬣" }},
+    { "$": "case_selector", "lower": { "code":  68401, "label": "𐬱" }, "upper": { "code":  68404, "label": "𐬴" }},
+    { "$": "case_selector", "lower": { "code":  68383, "label": "𐬟" }, "upper": { "code":  68387, "label": "𐬣" }},
     { "code":  68382, "label": "𐬞" },
-    { "$": "case", "lower": { "code":  68396, "label": "𐬬" }, "upper": { "code":  68385, "label": "𐬡" }},
+    { "$": "case_selector", "lower": { "code":  68396, "label": "𐬬" }, "upper": { "code":  68385, "label": "𐬡" }},
     { "code":  68400, "label": "𐬰" },
     { "code":  68402, "label": "𐬲" }
   ]
