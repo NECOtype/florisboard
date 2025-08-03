@@ -26,6 +26,7 @@
   ],
   "popupMappings": [
     { "id": "default", "authors": [ "patrickgold" ] },
+    { "id": "ae", "authors": [ "NECOdes" ] },
     { "id": "ar", "authors": [ "HeiWiper" ] },
     { "id": "ast", "authors": [ "Softastur" ] },
     { "id": "bg", "authors": [ "iorvethe" ] },
@@ -315,6 +316,18 @@
       "popupMapping": "org.florisboard.localization:fo",
       "preferred": {
         "characters": "org.florisboard.layouts:faroese"
+      }
+    },
+    {
+      "languageTag": "ae-AE",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:rial",
+      "popupMapping": "org.florisboard.localization:ae",
+      "preferred": {
+        "characters": "org.florisboard.layouts:avestan",
+        "symbols": "org.florisboard.layouts:avestan",
+        "symbols2": "org.florisboard.layouts:avestan",
+        "numericRow": "org.florisboard.layouts:persian"
       }
     },
     {
