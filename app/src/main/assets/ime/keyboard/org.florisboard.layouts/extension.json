@@ -676,6 +676,12 @@
         "direction": "ltr"
       },
       {
+        "id": "avestan",
+        "label": "Avestan",
+        "authors": [ "NECOdes" ],
+        "direction": "ltr"
+      },
+      {
         "id": "persian",
         "label": "Persian",
         "authors": [ "patrickgold" ],
