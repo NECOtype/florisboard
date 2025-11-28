@@ -62,6 +62,8 @@
     <string name="quick_action__arrow_left__tooltip">Perform arrow left</string>
     <string name="quick_action__arrow_right" comment="Please mind the limited available space for the quick action strings">Arrow right</string>
     <string name="quick_action__arrow_right__tooltip">Perform arrow right</string>
+    <string name="quick_action__ime_hide_ui" comment="Please mind the limited available space for the quick action strings">Hide keyboard</string>
+    <string name="quick_action__ime_hide_ui__tooltip">Perform hide keyboard</string>
     <string name="quick_action__clipboard_clear_primary_clip" comment="Please mind the limited available space for the quick action strings">Clear primary clipboard clip</string>
     <string name="quick_action__clipboard_clear_primary_clip__tooltip">Perform clear primary clipboard clip</string>
     <string name="quick_action__clipboard_copy" comment="Please mind the limited available space for the quick action strings">Copy</string>
@@ -215,8 +217,12 @@
     <string name="settings__theme_editor__component_meta_is_night_theme">Is night theme</string>
     <string name="settings__theme_editor__component_meta_is_borderless">Is borderless</string>
     <string name="settings__theme_editor__component_meta_stylesheet_path">Stylesheet path</string>
+    <string name="settings__theme_editor__component_meta_material_you__title">Material You</string>
     <string name="settings__theme_editor__stylesheet_error_title">Stylesheet error</string>
     <string name="settings__theme_editor__stylesheet_error_description">{app_name} can try to leniently load the stylesheet and add missing schemas, rules, or remove invalid rules, properties, or values. Do you want {app_name} to apply these changes?</string>
+    <string name="settings__theme_editor__component_meta_material_you__palette_style">Palette style</string>
+    <string name="settings__theme_editor__component_meta_material_you__color_contrast">Color contrast</string>
+    <string name="settings__theme_editor__component_meta_material_you__spec_version">Spec version</string>
 
     <string name="snygg__rule_annotation__defines">Variables</string>
     <string name="snygg__rule_annotation__defines_description">Define variables within this rule to re-use common colors or sizes in your stylesheet.</string>
@@ -1080,6 +1086,7 @@
     <string name="enum__swipe_action__move_cursor_start_of_page" comment="Enum value label">Move cursor to start of page</string>
     <string name="enum__swipe_action__move_cursor_end_of_page" comment="Enum value label">Move cursor to end of page</string>
     <string name="enum__swipe_action__switch_to_clipboard_context" comment="Enum value label">Open clipboard manager/history</string>
+    <string name="enum__swipe_action__switch_to_media_context" comment="Enum value label">Open emoji panel</string>
     <string name="enum__swipe_action__shift" comment="Enum value label">Shift</string>
     <string name="enum__swipe_action__redo" comment="Enum value label">Redo</string>
     <string name="enum__swipe_action__undo" comment="Enum value label">Undo</string>

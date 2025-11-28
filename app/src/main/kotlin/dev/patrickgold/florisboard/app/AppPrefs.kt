@@ -875,6 +875,11 @@ abstract class FlorisPreferenceModel : PreferenceModel() {
                         dynamicActions = newArrangement.dynamicActions.plus(QuickAction.InsertKey(TextKeyData.FORWARD_DELETE))
                     )
                 }
+                if (QuickAction.InsertKey(TextKeyData.IME_HIDE_UI) !in newArrangement) {
+                    newArrangement = newArrangement.copy(
+                        dynamicActions = newArrangement.dynamicActions.plus(QuickAction.InsertKey(TextKeyData.IME_HIDE_UI))
+                    )
+                }
                 val json = QuickActionJsonConfig.encodeToString(newArrangement.distinct())
                 entry.transform(rawValue = json)
             }
@@ -898,9 +903,10 @@ abstract class FlorisPreferenceModel : PreferenceModel() {
                 entry.transform(
                     type = PreferenceType.string(),
                     rawValue = when (entry.rawValue) {
-                        "true" -> ClipboardSyncBehavior.ALL_EVENTS
-                        else -> ClipboardSyncBehavior.NO_EVENTS
-                    }.name,
+                        "true" -> ClipboardSyncBehavior.ALL_EVENTS.name
+                        "false" -> ClipboardSyncBehavior.NO_EVENTS.name
+                        else -> entry.rawValue
+                    },
                 )
             }
             "clipboard__num_history_grid_columns_portrait" -> {
