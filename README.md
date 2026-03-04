@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for <a href="https://github.com/florisboard/florisboard">FlorisBoard</a></h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -9,7 +9,7 @@
 
 1. Open App
 2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+3. Select `Rosé Pine` from the themes drop-down
 
 ## Gallery
 
@@ -27,12 +27,10 @@
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-Modify `template.json` using Rosé Pine variables, then build variants:
+- [NECOdes](https://github.com/NECOtype)
+---
+This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
 
 ```sh
-npx @rose-pine/build@latest
+bloom build <template>
 ```
