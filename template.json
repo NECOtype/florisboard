@@ -21,7 +21,7 @@
     "--on-background": "rgba($text,1)",
     "--on-surface": "rgba($text,1)",
     "--on-surface-variant": "rgba($subtle,0.7058824)",
-    "--on-common-surface-variant": "rgba($pine)",
+    "--on-common-surface-variant": "rgb($pine)",
     "--shape": "rounded-corner(8dp,8dp,8dp,8dp)",
     "--shape-variant": "rounded-corner(12dp,12dp,12dp,12dp)",
     "--shape-chip": "rounded-corner(50%,50%,50%,50%)"
