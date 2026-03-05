@@ -3,23 +3,24 @@
 version: '3'
 
 vars:
-  OUTPUT: ./stylesheets
-  BASE: ./template.json
+  BASEVARIANT: ./template.json
   BORDERLESS: ./template-borderless.json
+  STYLESHEETS: ./stylesheets
   EXTENSION: ./extension.json
+  FLEXBUILD: ./dist/rosepine-temp.flex
 
 tasks:
   base:
     desc: Build base variant
     cmds:
-      - bloom build {{.BASE}} --format rgb --plain -o {{.OUTPUT}}
+      - bloom build {{.BASEVARIANT}} --format rgb --plain -o {{.STYLESHEETS}}
     silent: true
 
   base:dawn:
     desc: QuickFix dawn theme.
     deps: [base]
     cmds:
-      - "sed -i 's/\"--on-common-surface-variant\": \"rgba(40, 105, 131,1)\"/\"--on-common-surface-variant\": \"rgba(250, 244, 237, 1)\"/' {{.OUTPUT}}/rose-pine-dawn.json"
+      - "sed -i 's/\"--on-common-surface-variant\": \"rgba(40, 105, 131,1)\"/\"--on-common-surface-variant\": \"rgba(250, 244, 237, 1)\"/' {{.STYLESHEETS}}/rose-pine-dawn.json"
 
   borderless:
     desc: "[TODO] Build borderless variant"
@@ -28,4 +29,4 @@ tasks:
     desc: Package files into importable flex archive
     deps: [base:dawn]
     cmds:
-      -  zip -r rosepine-test.flex {{.OUTPUT}} {{.EXTENSION}}
+      -  zip -r {{.FLEXBUILD}} {{.STYLESHEETS}} {{.EXTENSION}}
