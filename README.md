@@ -7,9 +7,11 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes drop-down
+1. Download the [rosepine-temp.flex](https://github.com/NECOtype/florisboard/blob/main/dist/rosepine-temp.flex) file
+2. Open FlorisBoard
+3. Under settings > Theme > Go to Theme extensions, import `rosepine-temp.flex`
+4. Once imported, navigate back to Theme page
+5. Choose the right variant for Night and Day theme
 
 ## Gallery
 
@@ -29,8 +31,4 @@
 
 - [NECOdes](https://github.com/NECOtype)
 ---
-This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
-
-```sh
-bloom build <template>
-```
+This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom).
