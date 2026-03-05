@@ -16,7 +16,7 @@ tasks:
     silent: true
 
   borderless:
-    desc: [todo] Build borderless variant
+    desc: "[TODO] Build borderless variant"
 
   build:
     desc: Package files into importable flex archive
