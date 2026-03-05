@@ -9,23 +9,30 @@
 
 1. Download the [rosepine-temp.flex](https://github.com/NECOtype/florisboard/blob/main/dist/rosepine-temp.flex) file
 2. Open FlorisBoard
-3. Under settings > Theme > Go to Theme extensions, import `rosepine-temp.flex`
-4. Once imported, navigate back to Theme page
-5. Choose the right variant for Night and Day theme
+3. Under settings > `Theme` > `Go to Theme extensions`, import `rosepine-temp.flex`
+4. Once imported, navigate back to `Theme` page
+5. Choose the right variant for `Night theme` and `Day theme`
 
 ## Gallery
 
-### Rosé Pine
-
-<img width="256" alt="Rosé Pine with App" src="https://github.com/user-attachments/assets/3d9df6a3-0ee3-43f2-b934-83cf8f2806c2" />
-
-### Rosé Pine Moon
-
-<img width="256" alt="Rosé Pine Moon with App" src="https://github.com/user-attachments/assets/0acf279b-492c-4d75-acba-9de1d6cc8fcb" />
-
-### Rosé Pine Dawn
-
-<img width="256" alt="Rosé Pine Dawn with App" src="https://github.com/user-attachments/assets/fb1b1d16-55e8-45db-b388-7c25250b8022" />
+<table width="100%">
+  <tr>
+    <th>Rosé Pine</th>
+    <th>Rosé Pine Moon</th>
+    <th>Rosé Pine Dawn</th>
+  </tr>
+  <tr>
+    <td width="33.33%">
+      <img src="https://github.com/user-attachments/assets/ccb7d583-a82c-43d0-8323-2b5257c3e8de">
+    </td>
+    <td width="33.33%">
+      <img src="https://github.com/user-attachments/assets/a5c2edb4-6de8-4adf-98e1-25385fb12d64">
+    </td>
+    <td width="33.33%">
+      <img src="https://github.com/user-attachments/assets/6ccf10b0-d9be-417f-be7b-da7e895dadb5">
+    </td>
+  </tr>
+</table>
 
 ## Thanks to
 
