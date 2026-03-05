@@ -15,11 +15,17 @@ tasks:
       - bloom build {{.BASE}} --format rgb --plain -o {{.OUTPUT}}
     silent: true
 
+  base:dawn:
+    desc: QuickFix dawn theme.
+    deps: [base]
+    cmds:
+      - "sed -i 's/\"--on-common-surface-variant\": \"rgba(40, 105, 131,1)\"/\"--on-common-surface-variant\": \"rgba(250, 244, 237, 1)\"/' {{.OUTPUT}}/rose-pine-dawn.json"
+
   borderless:
     desc: "[TODO] Build borderless variant"
 
   build:
     desc: Package files into importable flex archive
-    deps: [base]
+    deps: [base:dawn]
     cmds:
       -  zip -r rosepine-test.flex {{.OUTPUT}} {{.EXTENSION}}
