@@ -10,37 +10,37 @@
   },
   "themes": [
     {
-      "id": "rosepine",
+      "id": "rose-pine",
       "label": "Rosé Pine",
       "authors": [ "NECOdes" ],
       "isNight": true
     },
     {
-      "id": "rosepine-borderless",
+      "id": "rose-pine-borderless",
       "label": "Rosé Pine (Borderless)",
       "authors": [ "NECOdes" ],
       "isNight": true
     },
     {
-      "id": "rosepine-moon",
+      "id": "rose-pine-moon",
       "label": "Rosé Pine Moon",
       "authors": [ "NECOdes" ],
       "isNight": true
     },
     {
-      "id": "rosepine-moon-borderless",
+      "id": "rose-pine-moon-borderless",
       "label": "Rosé Pine Moon (Borderless)",
       "authors": [ "NECOdes" ],
       "isNight": true
     },
     {
-      "id": "rosepine-dawn",
+      "id": "rose-pine-dawn",
       "label": "Rosé Pine Dawn",
       "authors": [ "NECOdes" ],
       "isNight": false
     },
     {
-      "id": "rosepine-dawn-borderless",
+      "id": "rose-pine-dawn-borderless",
       "label": "Rosé Pine Dawn (Borderless)",
       "authors": [ "NECOdes" ],
       "isNight": false
