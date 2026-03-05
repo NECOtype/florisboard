@@ -3,11 +3,23 @@
 version: '3'
 
 vars:
-  GREETING: Hello, world!
+  OUTPUT: ./stylesheets
+  BASE: ./template.json
+  BORDERLESS: ./template-borderless.json
+  EXTENSION: ./extension.json
 
 tasks:
-  default:
-    desc: Print a greeting message
+  base:
+    desc: Build base variant
     cmds:
-      - echo "{{.GREETING}}"
+      - bloom build {{.BASE}} --format rgb --plain -o {{.OUTPUT}}
     silent: true
+
+  borderless:
+    desc: [todo] Build borderless variant
+
+  build:
+    desc: Package files into importable flex archive
+    deps: [base]
+    cmds:
+      -  zip -r rosepine-test.flex {{.OUTPUT}} {{.EXTENSION}}
