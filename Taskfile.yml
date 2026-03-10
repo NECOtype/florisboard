@@ -12,22 +12,27 @@ vars:
 tasks:
   base:
     desc: Build base variant
+    deps: [borderless]
     cmds:
       - bloom build {{.BASEVARIANT}} --format rgb --plain -o {{.STYLESHEETS}}
     silent: true
 
-  base:dawn:
+  borderless:
+    desc: Build borderless variant
+    cmds:
+      - bloom build {{.BORDERLESS}} --format rgb --plain -o {{.STYLESHEETS}}
+      - for file in {{.STYLESHEETS}}/*.json; do mv "$file" "${file%.json}-borderless.json"; done
+    silent: true
+
+  dawn-fix:
     desc: QuickFix dawn theme.
     deps: [base]
     cmds:
       - "sed -i 's/\"--on-primary\": \"rgba(87, 82, 121,1)\"/\"--on-primary\": \"rgba(250, 244, 237, 1)\"/' {{.STYLESHEETS}}/rose-pine-dawn.json"
-      - "sed -i 's/\"--on-common-surface-variant\": \"rgba(40, 105, 131,1)\"/\"--on-common-surface-variant\": \"rgba(250, 244, 237, 1)\"/' {{.STYLESHEETS}}/rose-pine-dawn.json"
-
-  borderless:
-    desc: "[TODO] Build borderless variant"
+      - "sed -i 's/\"--on-primary\": \"rgba(87, 82, 121,1)\"/\"--on-primary\": \"rgba(250, 244, 237, 1)\"/' {{.STYLESHEETS}}/rose-pine-dawn-borderless.json"
 
   build:
     desc: Package files into importable flex archive
-    deps: [base:dawn]
+    deps: [dawn-fix]
     cmds:
       -  zip -r {{.FLEXBUILD}} {{.STYLESHEETS}} {{.EXTENSION}}
