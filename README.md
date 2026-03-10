@@ -14,7 +14,7 @@
 5. Choose the right variant for `Night theme` and `Day theme`
 
 ## Gallery
-
+### Bordered
 <table width="100%">
   <tr>
     <th>Rosé Pine</th>
@@ -30,6 +30,26 @@
     </td>
     <td width="33.33%">
       <img src="https://github.com/user-attachments/assets/6ccf10b0-d9be-417f-be7b-da7e895dadb5">
+    </td>
+  </tr>
+</table>
+
+### Borderless
+<table width="100%">
+  <tr>
+    <th>Rosé Pine</th>
+    <th>Rosé Pine Moon</th>
+    <th>Rosé Pine Dawn</th>
+  </tr>
+  <tr>
+    <td width="33.33%">
+      <img src="https://github.com/user-attachments/assets/350d546d-394f-4946-9b82-bf4d08ed6499">
+    </td>
+    <td width="33.33%">
+      <img src="https://github.com/user-attachments/assets/25d450a8-4dd9-431b-866c-c280a8bce7ed">
+    </td>
+    <td width="33.33%">
+      <img src="https://github.com/user-attachments/assets/b318a3e1-e66c-4bc2-9209-15293f1a8ee7">
     </td>
   </tr>
 </table>
