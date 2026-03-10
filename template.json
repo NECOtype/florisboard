@@ -8,7 +8,7 @@
     "--background": "rgba($base, 1)",
     "--background-variant": "rgba($highlightMed, 1)",
     "--surface": "rgba($surface, 1)",
-    "--surface-variant": "rgba($rose, 1)",
+    "--surface-variant": "rgba($highlightMed, 1)",
     "--popup-surface": "rgba($overlay, 1)",
     "--focused-popup-surface": "rgba($surface, 1)",
     "--drag-marker": "rgba($pine, 1)",
@@ -21,7 +21,6 @@
     "--on-background": "rgba($text,1)",
     "--on-surface": "rgba($text,1)",
     "--on-surface-variant": "rgba($subtle,0.7058824)",
-    "--on-common-surface-variant": "rgba($pine,1)",
     "--shape": "rounded-corner(8dp,8dp,8dp,8dp)",
     "--shape-variant": "rounded-corner(12dp,12dp,12dp,12dp)",
     "--shape-chip": "rounded-corner(50%,50%,50%,50%)"
@@ -92,7 +91,7 @@
   },
   "key:pressed": {
     "background": "var(--surface-variant)",
-    "foreground": "var(--on-common-surface-variant)"
+    "foreground": "var(--on-surface)"
   },
   "key[code=10]:pressed": {
     "background": "var(--primary-variant)",
