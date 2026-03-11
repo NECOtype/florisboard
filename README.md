@@ -7,7 +7,7 @@
 
 ## Usage
 
-1. Download the [rosepine-temp.flex](https://github.com/NECOtype/florisboard/blob/main/dist/rosepine-temp.flex) file
+1. Download the `*.flex` file from the [releases](https://github.com/NECOtype/florisboard/releases/latest)
 2. Open FlorisBoard
 3. Under settings > `Theme` > `Go to Theme extensions`, import `rosepine-temp.flex`
 4. Once imported, navigate back to `Theme` page
