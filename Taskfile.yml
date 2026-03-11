@@ -7,7 +7,6 @@ vars:
   BORDERLESS: ./template-borderless.json
   STYLESHEETS: ./stylesheets
   EXTENSION: ./extension.json
-  FLEXBUILD: ./dist/rosepine-temp.flex
 
 tasks:
   base:
@@ -37,4 +36,4 @@ tasks:
     desc: Package files into importable flex archive
     deps: [cleanup,dawn-fix]
     cmds:
-      -  zip -r {{.FLEXBUILD}} {{.STYLESHEETS}} {{.EXTENSION}}
+      -  zip -r rosepine-${GITHUB_REF_NAME}.flex {{.STYLESHEETS}} {{.EXTENSION}}
