@@ -10,8 +10,8 @@
 1. Download the `*.flex` file from the [releases](https://github.com/NECOtype/florisboard/releases/latest)
 2. Open FlorisBoard
 3. Under settings > `Theme` > `Go to Theme extensions`, import the file
-4. Once imported, navigate back to `Theme` page
-5. Choose the right variant for `Night theme` and `Day theme`
+4. Once imported, head back to `Theme` page
+5. Choose a variant for `Night theme` and `Day theme`
 
 ## Gallery
 ### Bordered
