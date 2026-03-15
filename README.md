@@ -59,7 +59,8 @@
 - [NECOdes](https://github.com/NECOtype)
 ---
 This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom) and [Taskfile](https://github.com/go-task/task).
-To build run:
+
+To build, run:
 ```bash
 task build
 ```
