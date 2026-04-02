@@ -16,7 +16,7 @@
     "--one-hand-background": "rgba(221,0,0,1)",
     "--one-hand-foreground": "rgba(143,49,49,1)",
     "--incognito-icon-color": "rgba(121, 117, 147,0.06666667)",
-    "--on-primary": "rgba(250, 244, 237, 1)",
+    "--on-primary": "rgba(250, 244, 237,1)",
     "--on-background-disabled": "rgba(152, 147, 165,0.28235295)",
     "--on-background": "rgba(87, 82, 121,1)",
     "--on-surface": "rgba(87, 82, 121,1)",
