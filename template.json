@@ -16,7 +16,7 @@
     "--one-hand-background": "rgba(221,0,0,1)",
     "--one-hand-foreground": "rgba(143,49,49,1)",
     "--incognito-icon-color": "rgba($subtle,0.06666667)",
-    "--on-primary": "rgba($text,1)",
+    "--on-primary": "rgba($($text|$text|$base),1)",
     "--on-background-disabled": "rgba($muted,0.28235295)",
     "--on-background": "rgba($text,1)",
     "--on-surface": "rgba($text,1)",
