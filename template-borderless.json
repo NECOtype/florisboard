@@ -1,7 +1,7 @@
 {
   "$schema": "https://schemas.florisboard.org/snygg/v2/stylesheet",
   "@defines": {
-    "--primary": "rgba($pine, 1)",
+    "--primary": "rgba($($pine|$pine|$rose), 1)",
     "--primary-variant": "rgba($highlightMed, 1)",
     "--secondary": "rgba($iris, 1)",
     "--secondary-variant": "rgba($highlightMed, 1)",
