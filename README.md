@@ -29,7 +29,7 @@
       <img src="https://github.com/user-attachments/assets/a5c2edb4-6de8-4adf-98e1-25385fb12d64">
     </td>
     <td width="33.33%">
-      <img src="https://github.com/user-attachments/assets/6ccf10b0-d9be-417f-be7b-da7e895dadb5">
+      <img alt="rosepine-dawn" src="https://github.com/user-attachments/assets/b42a8a0a-f48a-44e1-8dfe-a318d1f4cd63" />
     </td>
   </tr>
 </table>
@@ -49,7 +49,7 @@
       <img src="https://github.com/user-attachments/assets/25d450a8-4dd9-431b-866c-c280a8bce7ed">
     </td>
     <td width="33.33%">
-      <img src="https://github.com/user-attachments/assets/b318a3e1-e66c-4bc2-9209-15293f1a8ee7">
+      <img alt="rosepine-dawn-borderless" src="https://github.com/user-attachments/assets/9c3f6e22-0f7d-44cf-8648-38543004d341" />
     </td>
   </tr>
 </table>
