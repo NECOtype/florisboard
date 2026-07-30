@@ -14,18 +14,22 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: Get version
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
       - name: Install tools
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Bump version from tag
+      - name: Bump manifest file version from tag
         run: |
-          VERSION=${GITHUB_REF_NAME#v}
+          VERSION=${{ steps.get_version.outputs.VERSION }}
           jq --arg v "$VERSION" '.meta.version=$v' extension.json > tmp.json
           mv tmp.json extension.json
 
       - name: Install bloom
         run: |
-          curl -L https://github.com/rose-pine/rose-pine-bloom/releases/download/v3.0.1/rose-pine-bloom-linux-amd64 -o bloom
+          curl -L https://github.com/rose-pine/rose-pine-bloom/releases/download/v4.0.0/rose-pine-bloom-linux-amd64 -o bloom
           chmod +x bloom
           sudo mv bloom /usr/local/bin/
 
@@ -33,6 +37,6 @@ jobs:
         run: make
 
       - name: Create release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: "rosepine-*.flex"
