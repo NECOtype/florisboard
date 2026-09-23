@@ -23,13 +23,13 @@
   </tr>
   <tr>
     <td width="33.33%">
-      <img src="https://github.com/user-attachments/assets/ccb7d583-a82c-43d0-8323-2b5257c3e8de">
+      <img alt="rosepine" src="https://r2.git.kat.tf/git-repo/florisboard/rosepine.webp">
     </td>
     <td width="33.33%">
-      <img src="https://github.com/user-attachments/assets/a5c2edb4-6de8-4adf-98e1-25385fb12d64">
+      <img alt="rosepine-moon" src="https://r2.git.kat.tf/git-repo/florisboard/rosepine-moon.webp">
     </td>
     <td width="33.33%">
-      <img alt="rosepine-dawn" src="https://github.com/user-attachments/assets/b42a8a0a-f48a-44e1-8dfe-a318d1f4cd63" />
+      <img alt="rosepine-dawn" src="https://r2.git.kat.tf/git-repo/florisboard/rosepine-dawn.webp" />
     </td>
   </tr>
 </table>
@@ -43,13 +43,13 @@
   </tr>
   <tr>
     <td width="33.33%">
-      <img src="https://github.com/user-attachments/assets/350d546d-394f-4946-9b82-bf4d08ed6499">
+      <img alt="rosepine-borderless" src="https://r2.git.kat.tf/git-repo/florisboard/rosepine-borderless.webp">
     </td>
     <td width="33.33%">
-      <img src="https://github.com/user-attachments/assets/25d450a8-4dd9-431b-866c-c280a8bce7ed">
+      <img alt="rosepine-moon-borderless" src="https://r2.git.kat.tf/git-repo/florisboard/rosepine-dawn-borderless.webp">
     </td>
     <td width="33.33%">
-      <img alt="rosepine-dawn-borderless" src="https://github.com/user-attachments/assets/9c3f6e22-0f7d-44cf-8648-38543004d341" />
+      <img alt="rosepine-dawn-borderless" src="https://r2.git.kat.tf/git-repo/florisboard/rosepine-dawn-borderless.webp" />
     </td>
   </tr>
 </table>
